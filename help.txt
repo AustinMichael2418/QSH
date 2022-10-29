@@ -1,0 +1,19 @@
+set <qubits> - set with specified number of qubits
+listgates    - list all defined gates
+prob         - list probabilities of states
+exit         - exit QSH
+Any working quil Quil commands will work as well.
+
+QSH has full Quil support other than the following features:
+ - declaration commands
+ - gate/circuit modifiers
+ - dereferencing
+ - pragmas
+ - control modifiers
+ - parametric gates/circuits
+
+With these limitations in mind, you can find the Quil specs here:
+https://github.com/rigetti/quil/blob/master/spec/Quil.md
+https://arxiv.org/pdf/1608.03355.pdf
+
+I hope you enjoy using QSH to learn/practice quantum computing!
